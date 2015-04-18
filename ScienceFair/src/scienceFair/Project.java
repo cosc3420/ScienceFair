@@ -61,6 +61,14 @@ public class Project
 		sub=5;
 	}
 	
+	public void doesSub(int subjectNum){
+		sub = subjectNum;
+	}
+	
+	public int getSub(){
+		return sub;
+	}
+	
 	public String toString(){
 		
 		String result = "Project number is " + Integer.toString(pnum);
